@@ -18,7 +18,7 @@
     "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\"",
     "format": "prettier --write \"src/**/*.{js,ts,jsx,tsx,json,md}\"",
     "check-types": "tsc --noEmit",
-    "prepare": "husky"
+    "prepare": "bun run build && husky"
   },
   "keywords": [],
   "author": "",
