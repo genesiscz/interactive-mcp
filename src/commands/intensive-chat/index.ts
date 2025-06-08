@@ -183,7 +183,7 @@ export async function askQuestionInSession(
   );
 
   // Wait for response with timeout
-  const maxWaitTime = 60000; // 60 seconds max wait time
+  const maxWaitTime = 600000; // 60 seconds max wait time
   const pollInterval = 100; // 100ms polling interval
   const startTime = Date.now();
 
